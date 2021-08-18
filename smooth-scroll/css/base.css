@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+html {
+  height: 100%;
+  font-family: "DM Sans";
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(236, 112, 67);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(240, 142, 107);
+}

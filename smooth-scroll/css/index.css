@@ -1,0 +1,46 @@
+.hello__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello__card {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  margin: 20vh 0;
+  padding: 20px 40px;
+  box-shadow: 0 0 50px -8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  transition-property: box-shadow, top;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.hello__card:hover {
+  top: -10px;
+  box-shadow: 0 10px 50px -8px rgba(0, 0, 0, 0.1);
+}
+
+.hello__card > img {
+  height: 60px;
+  margin-right: 20px;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
+}
+
+.hello__section:nth-child(1) > .hello__card {
+  color: rgb(221, 55, 49);
+}
+
+.hello__section:nth-child(2) > .hello__card {
+  color: rgb(66, 118, 177);
+}
+
+.hello__section:nth-child(3) > .hello__card {
+  background-color: rgb(236, 112, 67);
+  color: white;
+}
